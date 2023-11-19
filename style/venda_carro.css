@@ -1,0 +1,91 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 50%;
+}
+
+#mainform {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 2px grey;
+}
+
+#pa1 {
+    color: rgb(80, 80, 80);
+    font-size: large;
+}
+
+.elemento {
+    display: block;
+    padding-top: 25px;
+    align-items: center;
+}
+
+.input-texto {
+    float: right;
+    width: 75%;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+label {
+    padding-left: 20px;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+input[type="button"]{
+    border-radius: 0px;
+    border: 1px solid grey;
+    margin: 1px;
+    height: 40px;
+    width: 80px;
+}
+
+
+#vender {
+    background-color: #56c050;
+    color: white;
+    border: solid 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#vender:hover {
+    background-color: #50DE7A;
+    color: white;
+}
+
+#vender:active {
+    background-color: #56c050;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    form {
+        width: 85%;
+    }
+
+    .input-texto {
+        width: 70%;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .input-texto {
+        width: 50%;
+    }
+}

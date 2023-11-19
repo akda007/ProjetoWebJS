@@ -1,0 +1,88 @@
+body {
+    background-color: lightgray;
+}
+
+main {
+    font-family: sans-serif;
+    width: 90%;
+    margin: 2% 5% 2% 5%;
+}
+
+.cabecalho {
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding: 10px 5% 0 5%;
+}
+
+.form-control {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: grey;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+    padding-bottom: 3%;
+}
+
+.btn {
+    width: 40%;
+    color: #fff;
+    padding: 10px;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #078556;
+}
+
+.btn-warning {
+    background-color: #FA7D0C;
+}
+
+.colunas{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10fr 1fr 10fr;
+    grid-template-areas: "cadastro gradient login"
+}
+
+.cadastro{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gradient{
+    background-image: linear-gradient(to right, white , #1ED956);
+}
+
+.login{
+    background-color: #1ED956;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width: 1200px) {
+    .colunas {
+        grid-template: 10fr 1fr 10fr / 1fr;
+    }
+}

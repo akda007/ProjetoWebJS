@@ -1,0 +1,166 @@
+main{
+    background: rgb(30,217,86);
+    background: linear-gradient(180deg, rgba(30,217,86,1) 0%, rgba(6,20,15,1) 55%);
+}
+
+.sobre{
+    background: rgb(63,150,41);
+    background: linear-gradient(180deg, rgba(63,150,41,0.9501050420168067) 0%, rgba(6,20,15,1) 43%);
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+
+    border-radius: 5px;
+}
+
+.subtitulo{
+    text-align: center;
+    text-transform: uppercase;
+
+    color: white;
+    text-shadow: 3px 3px 15px black;
+    font-family: 'Roboto Mono', monospace;
+
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.sobre-a-loja{
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+
+    color: white;
+    text-shadow: 3px 3px 15px black;
+    font-family: 'Young Serif', serif;
+
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.logo{
+    text-align: center;
+}
+
+.titulo-texto{
+    margin-left: 3%;
+
+    color: white;
+    text-shadow: 3px 3px 15px black;
+
+    font-size : 20px;
+    font-weight: bold;
+}
+
+.texto{
+    margin-left: 5%;
+
+    color: white;
+
+    text-shadow: 3px 3px 15px black;
+    font-family: 'Roboto Mono', monospace;
+
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.imagem-container{
+    display: flex;
+}
+
+
+.item {
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 0px;
+
+    color: white;
+    text-shadow: 3px 3px 15px black;
+
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.item img{
+    width: 175px;
+    height: 200px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 3px 3px #0be16b;
+    padding: 0;
+}
+
+.fale-conosco{
+    border-radius: 20px;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 35%;
+    margin-left: 35%;
+
+    background-color: #56b42bae;
+}
+
+.titulo-caixa{
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+
+    color: white;
+    text-shadow: 3px 3px 15px black; 
+
+    font-size: 18px;
+    font-weight: 200;
+
+}
+
+.conteudo-caixa{
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+
+    color: white;
+    text-shadow: 3px 3px 15px black;
+
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.botão{
+    text-align: center;
+}
+
+#botão {
+    text-align: center;
+
+    background-color: #00e238;
+    box-shadow: 0px 0px 3px 3px #0be16b;
+    color: white;
+
+    border: 2px solid #00e238;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+    font-size: 16px;
+}
+
+.redes-sociais{
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+
+    color: white;
+    text-shadow: 3px 3px 15px black;
+    
+    font-size: 15px;
+    font-weight: 200;
+}
+
+footer {
+    padding-block: 30px;
+}

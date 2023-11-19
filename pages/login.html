@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/mainStyle.css">
+    <link rel="stylesheet" href="../style/login.css">
+    <title>WhatsApp Motors©</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="../style/img/logo.png"></img>
+            <ul id="navbar">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./estoque.html">Estoque</a></li>
+                <li><a href="./venda_carro.html">Venda Seu Carro</a></li>
+                <div>
+                    <li><a href="./about.html">Sobre</a></li>
+                    <li><a href="./login.html">Entrar</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main class="colunas">
+        <div class="cadastro">
+            <div class="cabecalho">
+                <h1>Cadastro</h1>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" name="nome" >
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" class="form-control" id="email" name="email" >
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" class="form-control" id="senha" name="senha" >
+                </div>
+                <div class="form-group">
+                <label for="confirmar_senha">Confirmar Senha:</label>
+                <input type="password" class="form-control" id="confirmar_senha" name="confirmar_senha" >
+                </div>
+                <div class="form-group">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" class="form-control" id="cidade" name="cidade" >
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" class="form-control" id="telefone" name="telefone" >
+                </div>
+                <div class="buttons">
+                    <button type="reset" class="btn btn-warning">Limpar</button>
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="gradient"></div>
+
+        <div class="login">
+            <div class="cabecalho">
+                <h1>Login</h1>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" class="form-control" id="email" name="email" >
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" class="form-control" id="senha" name="senha" >
+                </div>
+                <div class="buttons">
+                    <button type="reset" class="btn btn-warning">Esqueci Minha Senha</button>
+                    <button type="submit" class="btn btn-primary">Fazer Login</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h4>WhatsApp Motors©</h4>
+    </footer>
+</body>
+
+</html>
